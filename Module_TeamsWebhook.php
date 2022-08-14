@@ -4,7 +4,7 @@ include_once APP . 'Model/WorkflowModules/WorkflowBaseModule.php';
 App::uses('SyncTool', 'Tools');
 App::uses('JsonTool', 'Tools');
 
-class TeamsHook extends WorkflowBaseActionModule
+class Module_TeamsWebHook extends WorkflowBaseActionModule
 {
     public $id = 'ms-teams-webhook';
     public $name = 'Teams Webhook';
