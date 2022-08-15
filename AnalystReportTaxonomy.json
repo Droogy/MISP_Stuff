@@ -1,0 +1,26 @@
+{
+  "namespace": "analyst-report",
+  "description": "Whether or not an event has an analyst-created report",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "has_analyst_report",
+      "expanded": ""
+    }
+  ],
+  "values": [
+    {
+      "predicate": "has_analyst_report",
+      "entry": [
+        {
+          "value": "yes",
+          "expanded": "Report exists."
+        },
+        {
+          "value": "no",
+          "expanded": "Report does not exist."
+        }
+      ]
+    }
+  ]
+}
